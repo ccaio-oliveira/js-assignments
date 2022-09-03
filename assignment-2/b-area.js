@@ -4,6 +4,7 @@ const c = 7;
 
 const semiPerimeter = (a + b + c) / 2;
 
-const area = (semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c)) ** 0.5;
+let area = (semiPerimeter * (semiPerimeter - a) * (semiPerimeter - b) * (semiPerimeter - c)) ** 0.5;
+area = area.toFixed(2);
 
-console.log(area);
+console.log(`The value of the area of the triangle is ${area}`);

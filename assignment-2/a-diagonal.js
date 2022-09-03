@@ -1,3 +1,6 @@
 const eachSide = 9;
-const diagonal = (2 * eachSide ** 2) ** 0.5;
-console.log(diagonal);
+let diagonal = (2 * eachSide ** 2) ** 0.5;
+diagonal = diagonal.toFixed(2);
+
+console.log('Assignment 2');
+console.log(`The value of the diagonal of the square is ${diagonal}`);
